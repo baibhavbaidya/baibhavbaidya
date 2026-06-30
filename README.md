@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Baibhav Baidya
+# Hi, I'm Baibhav Baidya👋
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=AI+Engineer+%7C+Full-Stack+Developer;Building+production-grade+AI+agents;LangGraph+%7C+RAG+%7C+Multi-modal+Pipelines" alt="Typing SVG" />
 
@@ -10,7 +10,7 @@
 
 </div>
 
-I build production-grade AI agents and full-stack systems — currently a CSE student at SRM University AP, interning at YesJ Expert.
+I build production-grade AI agents and full-stack systems — currently a final year CSE student at SRM University AP, interning at YesJ Expert.
 
 📍 Vijayawada, India · 🎓 B.Tech CSE, 2027
 
@@ -65,11 +65,8 @@ I build production-grade AI agents and full-stack systems — currently a CSE st
 ### [ResearchMind](https://researchmind-bb.vercel.app)
 A production-deployed multi-agent research pipeline built with LangGraph — 5 specialized agents (Searcher, Summarizer, Critic, Fact Checker, Synthesizer) coordinating over a hybrid FAISS + BM25 retrieval system with reciprocal rank fusion. Real-time WebSocket streaming, FastAPI/Docker backend on HuggingFace Spaces, React/Firebase frontend on Vercel.
 
-### CardSync
-A multi-modal AI agent (LangGraph) that extracts structured data from visiting cards via images and voice notes. Streams results over WebSockets, syncs to Google Sheets, stores files on Cloudflare R2, and sends WhatsApp notifications via the Meta Business API. Built as a take-home assignment for Krid.AI.
-
-### Abhyaan
-An AI-native mini CRM with natural language campaign creation, proactive opportunity discovery (Groq/LLaMA), and async delivery simulation with realistic callback loops and atomic SQL race-condition handling. Three services deployed across Vercel and Render with Neon PostgreSQL.
+### [CardSync](https://github.com/baibhavbaidya/cardsync)
+A multi-modal AI agent (LangGraph) that extracts structured data from visiting cards via images and voice notes. Streams results over WebSockets, syncs to Google Sheets, stores files on Cloudflare R2, and sends WhatsApp notifications via the Meta Business API.
 
 ### [Snip.ly – URL Shortener](https://github.com/baibhavbaidya/url-shortener)
 An event-driven URL shortener engineered for low-latency redirects — Redis caching brings redirect latency under 5ms via a cache-hit fallback pattern. A Kafka analytics pipeline decouples click writes from the redirect path, with a worker batch-inserting events every 5 seconds across 7 Docker containers. Also includes Redis sliding-window rate limiting, URL expiry, IP anonymization, and a React dashboard for clicks, unique visitors, and referrer data.
